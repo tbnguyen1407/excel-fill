@@ -6,7 +6,7 @@
 !/.config/goreleaser.yaml
 !/.github/**
 !/.vscode/launch.json
-!/samples/*.xlsx
+!/samples/*
 !/.gitignore
 !/.gitlab-ci.yml
 !/CHANGELOG.md
