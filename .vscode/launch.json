@@ -8,10 +8,10 @@
             "mode": "auto",
             "program": "${workspaceFolder}/main.go",
             "args": [
-                "-book",
+                "--config",
+                "samples/config.yaml",
+                "--in",
                 "samples/book1.xlsx",
-                "-config",
-                "samples/config.yaml"
             ]
         }
     ]
