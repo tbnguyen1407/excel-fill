@@ -8,9 +8,7 @@
 !/.vscode/launch.json
 !/samples/*
 !/.gitignore
-!/.gitlab-ci.yml
 !/CHANGELOG.md
-!/excel-fill.yaml
 !/go.mod
 !/go.sum
 !/main.go
