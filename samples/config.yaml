@@ -6,7 +6,7 @@ operations:
         value: "gitlab-runner-docker-cleanup"
     actions:
       - column: K
-        value: "Scheduled cronjob"
+        value: "Scheduled startup job"
   ## Windows
   - name: "aws-inspector-ssm-plugin-update"
     filters:
@@ -32,3 +32,21 @@ operations:
         value: "GPLS-8000"
       - column: L
         value: "GPLS-8001"
+  - name: "2025-10-08-refresh-appian"
+    filters:
+      - column: B
+        value: "^10/8/25 (18|19)"
+    actions:
+      - column: K
+        value: "GPLS-8265"
+      - column: L
+        value: "GPLS-8286"
+  - name: "2025-10-23-app-deployment-r3.11"
+    filters:
+      - column: B
+        value: "^10/23/25 (18|19)"
+    actions:
+      - column: K
+        value: "R3.11 Release"
+      - column: L
+        value: "GPLS-8178"
