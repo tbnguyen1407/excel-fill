@@ -6,13 +6,14 @@
 
 - nothing yet
 
-### Fixed
-
-- nothing yet
-
 ### Changed
 
-- nothing yet
+- Go 1.26
+- update dependencies
+
+### Fixed
+
+- wrong module path
 
 ### Removed
 
